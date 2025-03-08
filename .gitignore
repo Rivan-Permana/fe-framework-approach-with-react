@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Build & cache files
+dist/
+build/
+.vite/
+.cache/
+out/
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+!.env.example  # Biar ada contoh struktur .env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories & system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Virtual environment (kalau ada Python)
+.venv/
+venv/
+
+# Jest & Testing (kalau pakai Jest)
+coverage/
+
+# MacOS & Linux system files
+*.swp
+*.swo
